@@ -1,0 +1,15 @@
+
+Moniteurs:idMoniteur,nom
+effectuer_avec, 11 Lecons, 0N Voitures
+Voitures:idVoiture,immatriculation,dateAchat,kilometrage
+
+suivre, 11 Clients, 0N Moniteurs
+dispenser,11 Lecons, 0N Moniteurs
+Lecons:idLecon,dateExecution,duree
+appartenir_a, 11 Voitures, 1N Modeles
+
+Clients:idClient,nom,prenom,adresse,dateNaissance
+realiser, 11 Lecons, 0N Clients
+choisir, 11 Lecons, 0N Modeles
+Modeles:codeModele,nom,cylindree,puissanceFiscale,typeBoiteVitesse
+
